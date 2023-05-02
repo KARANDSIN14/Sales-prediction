@@ -44,7 +44,9 @@ We plotted the scatter plot diagram for the test and the predicted values, and w
 3.Random Forest Regressor
 •	The use of ensemble techniques improved the performance of the random forest model with lower error metrics and higher R-squared score. Ensemble techniques such as Random Forest or Gradient Boosting are recommended for regression tasks with decision trees to improve accuracy and robustness.
 In the scatter plot diagram, the random forest with ensemble technique is more effective at forecasting sales values as its points are clustered more closely around the diagonal line than the random forest without ensemble technique.
+
 Hyperparameter Tuning (Using GridSearchCV)
+
 1.	Decision Tree Model
 The decision tree model with hyperparameter tuning performed better than the one without tuning with a higher R-squared score and lower error metrics. The decision tree bagging model with hyperparameter tuning outperformed the other DT models as it has the highest R-squared score and lowest errors in predicting sales.
 
@@ -56,7 +58,10 @@ The XGBoost model with hyperparameter tuning outperformed the model without tuni
 
 Model Evaluation and Selection:
 
-The models with the highest scores were 1. XGBoost with hyperparameter tuning,2. Decision Tree Model with Bagging (with hyperparameter tuning), 3. Random Forest Regressor (with hyperparameter tuning), and 4. Linear Regression with Bagging Regressor.
-Conclusion
+The models with the highest scores were
+1. XGBoost with hyperparameter tuning,2. Decision Tree Model with Bagging (with hyperparameter tuning), 3. Random Forest Regressor (with hyperparameter tuning), and 4. Linear Regression with Bagging Regressor.
+
+Conclusion:
+
 The Random Forest Regressor with Hyperparameter Tuning seems to perform better than the other three models. It has lower MSE, RMSE, and MAE values and a higher R-squared score of 0.56. This suggests that the Random Forest Regressor should be the best model for this dataset.
 
